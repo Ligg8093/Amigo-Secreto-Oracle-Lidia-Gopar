@@ -27,4 +27,4 @@ Está pensada para principiantes que quieran aprender HTML, CSS y JavaScript, y 
 - Si tienes dudas específicas, puedes abrir un hilo en foros como [Stack Overflow en español](https://es.stackoverflow.com/).
 
 ## 👨‍💻 Autores del proyecto
-- **Tu nombre aquí** – Desarrollador y creador del proyecto.
+- Lidia Gopar
