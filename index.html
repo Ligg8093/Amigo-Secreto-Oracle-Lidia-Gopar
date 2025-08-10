@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Juego del Amigo Secreto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>🎁 Juego del Amigo Secreto 🎁</h1>
+
+    <section class="input-area" aria-labelledby="titulo-participantes">
+      <h2 id="titulo-participantes">Agregar participantes</h2>
+      <div class="row">
+        <input
+          type="text"
+          id="nombre"
+          placeholder="Escribe tu nombre"
+          aria-label="Nombre del participante"
+        />
+        <button id="btnAgregar" class="btn">Agregar</button>
+      </div>
+      <p class="ayuda">Consejo: presiona Enter para agregar rápido.</p>
+    </section>
+
+    <section class="list-area" aria-labelledby="titulo-lista">
+      <h3 id="titulo-lista">Participantes</h3>
+      <ul id="listaParticipantes" class="lista"></ul>
+    </section>
+
+    <section class="actions">
+      <button id="btnSortear" class="btn btn-primario">Sortear Amigo Secreto</button>
+    </section>
+
+    <section class="resultado" id="resultado" aria-live="polite"></section>
+  </main>
+
+  <!-- JS externo -->
+  <script src="amigo_secreto.js"></script>
+</body>
+</html>
